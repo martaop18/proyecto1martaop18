@@ -1,0 +1,42 @@
+* {box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;}
+   
+body { background-color: #F9CEEE;
+    
+}
+
+
+.container { 
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    margin: 3em;
+    }
+
+/* left controller */
+
+.leftcontroller {
+    height:25em;
+    background-color: #CCF3EE;
+}
+
+.leftbutton {}
+.leftstick{}
+.directionalbuttons {}
+.capturebutton{}
+
+ /* pantalla */
+.screen 
+    {height:25em;
+    background-color:  #F9F3EE;
+    border-color: #F9F3EE;
+    border-style: solid;
+    display: flex; 
+}
+/* control derecho */
+.rightc {
+    height:25em;
+    background-color: #97C4B8;
+}
