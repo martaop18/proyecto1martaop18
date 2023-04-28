@@ -1,42 +1,100 @@
 * {box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;}
+   }
    
-body { background-color: #F9CEEE;
-    
-}
+body {  
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfe37e;
+    }
 
 
 .container { 
     display: flex;
-    height: 80vh;
     align-items: center;
     justify-content: center;
-    margin: 3em;
+    height: 90vh;
+    width: 90vh;
     }
 
 /* left controller */
 
 .leftcontroller {
     height:25em;
-    background-color: #CCF3EE;
+    width: 10em;
+    background-color: #FF0063;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6em 0 0 6em;
 }
 
-.leftbutton {}
-.leftstick{}
-.directionalbuttons {}
-.capturebutton{}
-
- /* pantalla */
-.screen 
-    {height:25em;
-    background-color:  #F9F3EE;
-    border-color: #F9F3EE;
+.leftbutton {
+    width: 1.7em;
+    height: 0.5em;
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 75%;
+}
+.leftstick{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 15%;
+    margin-left: 40%;
+    height: 3em;
+    width: 3em;
+    border-radius: 100%;
+    background-color: #414b4d;
+    border-color: black;
     border-style: solid;
-    display: flex; 
+    border-width: 0.5em;
 }
-/* control derecho */
-.rightc {
+.circle {
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    background-color: black;
+}
+.directionalbuttons {
+
+}
+
+.capturebutton {
+
+}
+
+/* screen */
+.screen 
+    {
     height:25em;
-    background-color: #97C4B8;
+    width: 50em;
+    background-color: #181718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.screenborder {
+    height: 90%;
+    width: 90%;
+    background-color: black;
+}
+
+.gamearea { 
+    height: 100%;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.rightcontroller{
+    height:25em;
+    width: 10em;
+    background-color: #FF0063;
+    display: flex;
+    /* flex-direction: column; */
+    border-radius: 0 6em 6em 0;
+
+}
+
