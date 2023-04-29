@@ -7,15 +7,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f61297;
+    background-color: #b32377 ;
     }
 
 .container { 
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-shadow: 1em rgb(62, 65, 59);
-    border-radius: 6em 6em 6em 6em; */
     /* height: 90vh;
     width: 90vh; */
 }
@@ -33,12 +31,12 @@ body {
 }
 
 .leftcontroller:hover {
-    transition: 1s;
+    transition: 2s;
     margin-bottom: 10em;
 }
 
 .leftbutton {
-    width: 1.7em;
+    width: 1.2em;
     height: 0.5em;
     background-color: black;
     margin-top: 20%;
@@ -79,7 +77,10 @@ body {
     width: 2em;
     border-radius: 100%;
     background-color: rgb(221, 238, 29);
-    box-shadow: 0.1em 0.1em 0.05em rgb(249, 249, 23);
+    border-color: rgb(230, 240, 90);
+    border-style:solid;
+    border-width: 0.15em;
+    box-shadow: 0.1em 0.1em 0.05em rgb(190, 190, 46);
 }
 
 .redcircle {
@@ -88,6 +89,8 @@ body {
     border-radius: 100%;
     background-color: rgb(251, 54, 5);
     border-color: rgb(250, 4, 4);
+    border-style: solid;
+    border-width: 0.15em;
     box-shadow: 0.1em 0.1em 0.05em rgb(249, 1, 1);
 }
 
@@ -96,14 +99,20 @@ body {
     width: 2em;
     border-radius: 100%;
     background-color: rgb(78, 199, 181);
-    box-shadow: 0.1em 0.1em 0.05em rgb(43, 250, 178);
+    border-color: rgb(87, 202, 165);
+    border-style: solid;
+    border-width: 0.15em;
+    box-shadow: 0.1em 0.1em 0.05em rgb(43, 196, 142);
 }
 .bluecircle {
     height: 2em;
     width: 2em;
     border-radius: 100%;
     background-color: rgb(16, 19, 163);
-    box-shadow: 0.1em 0.1em 0.05em rgb(13, 136, 244);
+    border-color: rgb(62, 41, 155);
+    border-style: solid;
+    border-width: 0.15em;
+    box-shadow: 0.1em 0.1em 0.05em rgb(19, 66, 107);
 }
 
 .toparrow {
@@ -113,7 +122,7 @@ body {
     border-right: 0.5em solid transparent;
     border-bottom: 1em solid rgb(242, 247, 107);
     margin-top: 20%;
-    margin-left: 30%;
+    margin-left: 25%;
     }
 
 .leftarrow {
@@ -171,11 +180,12 @@ body {
 .screen 
     {
     height:25em;
-    width: 35em;
+    width: 45em;
     background-color: #2b2929;
     display: flex;
     justify-content: center;
     align-items: center;
+    position:static ;
 }
 .screenborder {
     height: 95%;
@@ -201,10 +211,82 @@ body {
     background-color:  rgb(229, 225, 225);
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
+    color: rgb(204, 205, 206);
     border-radius: 0 6em 6em 0;
     transition: 0.5s;
 }
 .rightcontroller:hover {
-    transition: 1s;
+    transition: 2s;
     margin-bottom: 10em;
 }
+.plusbutton{
+height: 2em;
+width: 2em;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.vertical{
+height: 0.5em;
+width: 1.4em;
+background-color: black;
+margin-top: 80%;
+margin-left: 35%;
+position: absolute;
+
+}
+.horizontal {
+height: 0.5em;
+width: 1.4em;
+background-color: black;
+transform: rotate(90deg);
+margin-top: 80%;
+margin-left: 35%;
+position: absolute;
+}
+.rightstick{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25%;
+margin-left: 30%;
+height: 4em;
+width: 4em;
+border-radius: 100%;
+background-color: #414b4d;
+border-color: rgb(27, 25, 25);
+border-style: solid;
+border-width: 0.6em;
+box-shadow: 0.2em 0.2em 0.6em black;
+}
+
+.homebutton {
+margin-top:20%;
+margin-left: 20%;
+height: 2em;
+width: 2em;
+border-radius: 100%;
+background-color: #2d2f30;
+border-color: rgb(86, 76, 76);
+border-style: solid;
+border-width: 0.3em;
+box-shadow: 0em 0.2em 0.4em rgba(2, 2, 2, 0.6);
+}
+.Xbutton{
+margin-top:20%;
+margin-left: 33%;  
+}
+.Ybutton{
+margin-top:20%;
+margin-left: 33%;  
+}
+.Abutton{
+margin-top:20%;
+margin-left: 33%;  
+}
+.Bbutton{
+margin-top:25%;
+margin-left:36%;  
+}
+
