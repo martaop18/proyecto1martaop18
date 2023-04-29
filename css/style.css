@@ -14,27 +14,35 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* box-shadow: 1em rgb(62, 65, 59);
+    border-radius: 6em 6em 6em 6em; */
     /* height: 90vh;
     width: 90vh; */
-    }
+}
 
 /* left controller */
 
 .leftcontroller {
     height:25em;
-    width: 10em;
-    background-color: aliceblue;
+    width: 8.5em;
+    background-color: rgb(229, 225, 225);
     display: flex;
     flex-direction: column;
     border-radius: 6em 0 0 6em;
+    transition: 0.5s;
+}
+
+.leftcontroller:hover {
+    transition: 1s;
+    margin-bottom: 10em;
 }
 
 .leftbutton {
     width: 1.7em;
     height: 0.5em;
     background-color: black;
-    margin-top: 10%;
-    margin-left: 75%;
+    margin-top: 20%;
+    margin-left: 70%;
 }
 .leftstick{
     display: flex;
@@ -49,15 +57,8 @@ body {
     border-color: rgb(27, 25, 25);
     border-style: solid;
     border-width: 0.6em;
-    box-shadow: 0.4em 0.4em 0.8em black;
+    box-shadow: 0.2em 0.2em 0.6em black;
 }
-/* .circle {
-    height: 2em;
-    width: 2em;
-    border-radius: 100%;
-    background-color: rgb(221, 238, 29);
-} */
-
 .directionalbuttons {
     display: flex;
     align-items: center;
@@ -78,7 +79,7 @@ body {
     width: 2em;
     border-radius: 100%;
     background-color: rgb(221, 238, 29);
-    box-shadow: 0.1em 0.1em 0.5em rgb(216, 216, 16);
+    box-shadow: 0.1em 0.1em 0.05em rgb(249, 249, 23);
 }
 
 .redcircle {
@@ -87,9 +88,7 @@ body {
     border-radius: 100%;
     background-color: rgb(251, 54, 5);
     border-color: rgb(250, 4, 4);
-    /* border-style: solid;
-    border-width: 0.25em; */
-    box-shadow: 0.1em 0.1em 0.5em rgb(252, 6, 6);
+    box-shadow: 0.1em 0.1em 0.05em rgb(249, 1, 1);
 }
 
 .greencircle {
@@ -97,14 +96,14 @@ body {
     width: 2em;
     border-radius: 100%;
     background-color: rgb(78, 199, 181);
-    box-shadow: 0.1em 0.1em 0.5em rgb(53, 229, 168);
+    box-shadow: 0.1em 0.1em 0.05em rgb(43, 250, 178);
 }
 .bluecircle {
     height: 2em;
     width: 2em;
     border-radius: 100%;
     background-color: rgb(16, 19, 163);
-    box-shadow: 0.1em 0.1em 0.5em rgb(34, 73, 108);
+    box-shadow: 0.1em 0.1em 0.05em rgb(13, 136, 244);
 }
 
 .toparrow {
@@ -114,7 +113,7 @@ body {
     border-right: 0.5em solid transparent;
     border-bottom: 1em solid rgb(242, 247, 107);
     margin-top: 20%;
-    margin-left: 25%;
+    margin-left: 30%;
     }
 
 .leftarrow {
@@ -151,40 +150,36 @@ body {
     }
 
 .capturebutton {
-    margin-top: 10%;
+    margin-top: 13%;
     margin-left: 60%;
-    height: 2.5em;
-    width: 2.5em;
-    border-radius: 0.2em 0.2em 0.2em 0.2em;
-    background-color: #414b4d;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 0.1em 0.1em 0.1em 0.1em;
+    background-color: #2d2f30;
     box-shadow: 0em 0.1em 0.2em rgba(2, 2, 2, 0.6);
 }
 .capturecircle{
-    height: 2em;
-    width: 2em;
+    height: 1em;
+    width: 1em;
     border-radius: 100%;
     background-color: black;
-    /* align-items:center; */
-    /* justify-content: center; */
-    margin-top: 11%;
-    margin-left: 11%;
+    margin-top: 20%;
+    margin-left: 15%;
 }
 
-/* screen */
+/* SCREEN */
 .screen 
     {
     height:25em;
-    width: 45em;
-    background-color: #181718;
+    width: 35em;
+    background-color: #2b2929;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .screenborder {
-    height: 90%;
-    width: 90%;
-    background-color: black;
+    height: 95%;
+    width: 95%;
 }
 
 .gamearea { 
@@ -192,17 +187,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
-    background-image: url(img/Nintendo_Switch_central_Logo.jpg);
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1em;
+    border-radius: 1em 1em 1em 1em;
 }
+/* RIGHT CONTROLLER */
 
 .rightcontroller{
     height:25em;
-    width: 10em;
-    background-color: aliceblue;
+    width: 8.5em;
+    background-color:  rgb(229, 225, 225);
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     border-radius: 0 6em 6em 0;
-
+    transition: 0.5s;
 }
-
+.rightcontroller:hover {
+    transition: 1s;
+    margin-bottom: 10em;
+}
