@@ -1,4 +1,5 @@
-* {box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 body {  
@@ -7,18 +8,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #b32377 ;
+    background-color: #88607b ;
     }
 
 .container { 
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 90vh;
-    width: 90vh; */
 }
 
-/* left controller */
+/* LEFT CONTROLLER */
 
 .leftcontroller {
     height:25em;
@@ -26,8 +25,8 @@ body {
     background-color: rgb(229, 225, 225);
     display: flex;
     flex-direction: column;
-    border-radius: 6em 0 0 6em;
-    transition: 0.5s;
+    border-radius: 6em 0.2em 0.2em 6em;
+    transition: 2s;
 }
 
 .leftcontroller:hover {
@@ -38,13 +37,15 @@ body {
 .leftbutton {
     width: 1.2em;
     height: 0.5em;
-    background-color: black;
+    border-radius: 10%;
+    background-color: rgb(24, 22, 22);
     margin-top: 20%;
     margin-left: 70%;
 }
+
 .leftstick{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 25%;
     margin-left: 30%;
@@ -57,6 +58,7 @@ justify-content: center;
     border-width: 0.6em;
     box-shadow: 0.2em 0.2em 0.6em black;
 }
+
 .directionalbuttons {
     display: flex;
     align-items: center;
@@ -73,220 +75,251 @@ justify-content: center;
 }
 
 .yellowcircle {
-height: 2em;
-width: 2em;
-border-radius: 100%;
-background-color: rgb(221, 238, 29);
-border-color: rgb(230, 240, 90);
-border-style:solid;
-border-width: 0.15em;
-box-shadow: 0.1em 0.1em 0.05em rgb(190, 190, 46);
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    background-color: rgb(221, 238, 29);
+    border-color: rgb(230, 240, 90);
+    border-style:solid;
+    border-width: 0.15em;
+    box-shadow: 0.1em 0.1em 0.05em rgb(190, 190, 46);
 }
 
 .redcircle {
-height: 2em;
-width: 2em;
-border-radius: 100%;
-background-color: rgb(251, 54, 5);
-border-color: rgb(250, 4, 4);
-border-style: solid;
-border-width: 0.15em;
-box-shadow: 0.1em 0.1em 0.05em rgb(249, 1, 1);
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    background-color: rgb(251, 54, 5);
+    border-color: rgb(250, 4, 4);
+    border-style: solid;
+    border-width: 0.15em;
+    box-shadow: 0.1em 0.1em 0.05em rgb(249, 1, 1);
 }
 
 .greencircle {
-height: 2em;
-width: 2em;
-border-radius: 100%;
-background-color: rgb(78, 199, 181);
-border-color: rgb(87, 202, 165);
-border-style: solid;
-border-width: 0.15em;
-box-shadow: 0.1em 0.1em 0.05em rgb(43, 196, 142);
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    background-color: rgb(78, 199, 181);
+    border-color: rgb(87, 202, 165);
+    border-style: solid;
+    border-width: 0.15em;
+    box-shadow: 0.1em 0.1em 0.05em rgb(43, 196, 142);
 }
+
 .bluecircle {
-height: 2em;
-width: 2em;
-border-radius: 100%;
-background-color: rgb(16, 19, 163);
-border-color: rgb(62, 41, 155);
-border-style: solid;
-border-width: 0.15em;
-box-shadow: 0.1em 0.1em 0.05em rgb(19, 66, 107);
+    height: 2em;
+    width: 2em;
+    border-radius: 100%;
+    background-color: rgb(16, 19, 163);
+    border-color: rgb(51, 32, 135);
+    border-style: solid;
+    border-width: 0.15em;
+    box-shadow: 0.1em 0.1em 0.05em rgb(23, 73, 116);
 }
 
 .toparrow {
-height: 0;
-width: 0;
-border-left: 0.5em solid transparent;
-border-right: 0.5em solid transparent;
-border-bottom: 1em solid rgb(242, 247, 107);
-margin-top: 20%;
-margin-left: 25%;
+    height: 0;
+    width: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 1em solid rgb(242, 247, 107);
+    margin-top: 20%;
+    margin-left: 25%;
 }
 
 .leftarrow {
-height: 0;
-width: 0;
-border-left: 0.5em solid transparent;
-border-right: 0.5em solid transparent;
-border-bottom: 1em solid rgb(238, 76, 76);
-transform: rotate(270deg);
-margin-top: 25%;
-margin-left:15%;
+    height: 0;
+    width: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 1em solid rgb(238, 76, 76);
+    transform: rotate(270deg);
+    margin-top: 25%;
+    margin-left:15%;
 }
 
 .rightarrow {
-height: 0;
-width: 0;
-border-left: 0.5em solid transparent;
-border-right: 0.5em solid transparent;
-border-bottom: 1em solid rgb(84, 219, 210);
-transform: rotate(90deg);
-margin-top: 25%;
-margin-left: 35%;
+    height: 0;
+    width: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 1em solid rgb(84, 219, 210);
+    transform: rotate(90deg);
+    margin-top: 25%;
+    margin-left: 35%;
 }
 
 .bottomarrow {
-height: 0;
-width: 0;
-border-left: 0.5em solid transparent;
-border-right: 0.5em solid transparent;
-border-bottom: 1em solid rgb(43, 77, 131);
-transform: rotate(180deg);
-margin-top: 35%;
-margin-left: 25%;
+    height: 0;
+    width: 0;
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 1em solid rgb(43, 77, 131);
+    transform: rotate(180deg);
+    margin-top: 35%;
+    margin-left: 25%;
 }
 
 .capturebutton {
-margin-top: 13%;
-margin-left: 60%;
-height: 1.5em;
-width: 1.5em;
-border-radius: 0.1em 0.1em 0.1em 0.1em;
-background-color: #2d2f30;
-box-shadow: 0em 0.1em 0.2em rgba(2, 2, 2, 0.6);
+    margin-top: 18%;
+    margin-left: 55%;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 0.1em 0.1em 0.1em 0.1em;
+    background-color: #2d2f30;
+    box-shadow: 0em 0.1em 0.2em rgba(2, 2, 2, 0.6);
 }
 .capturecircle{
-height: 1em;
-width: 1em;
-border-radius: 100%;
-background-color: black;
-margin-top: 20%;
-margin-left: 15%;
+    height: 1em;
+    width: 1em;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 17%;
+    margin-left: 17%;
 }
 
 /* SCREEN */
-.screen 
-    {
-height:25em;
-width: 45em;
-background-color: #2b2929;
-display: flex;
-justify-content: center;
-align-items: center;
-position:static ;
+.screen  {
+    height:25em;
+    width: 45em;
+    background-color: #2b2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:  0.2em  0.2em  0.2em  0.2em ;
+    position:static ;
 }
 .screenborder {
-height: 95%;
-width: 95%;
+    height: 95%;
+    width: 95%;
 }
 
 .gamearea { 
-height: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: white;
-border-color: black;
-border-style: solid;
-border-width: 1em;
-border-radius: 1em 1em 1em 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1em;
+    border-radius: 1em 1em 1em 1em;
 }
 /* RIGHT CONTROLLER */
 
 .rightcontroller{
-height:25em;
-width: 8.5em;
-background-color:  rgb(229, 225, 225);
-display: flex;
-flex-direction: column;
-font-family: sans-serif;
-color: rgb(204, 205, 206);
-border-radius: 0 6em 6em 0;
-transition: 0.5s;
+    height:25em;
+    width: 8.5em;
+    background-color:  rgb(229, 225, 225);
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: rgb(204, 205, 206);
+    border-radius: 0.2em 6em 6em 0.2em;
+    transition: 0.5s;
 }
 .rightcontroller:hover {
-transition: 2s;
-margin-bottom: 10em;
+    transition: 2s;
+    margin-bottom: 10em;
 }
+
 .plusbutton{
-height: 2em;
-width: 2em;
-display: flex;
-flex-direction: column;
-position: relative;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
+
 .vertical{
-height: 0.5em;
-width: 1.4em;
-background-color: black;
-margin-top: 80%;
-margin-left: 35%;
-position: absolute;
+    height: 0.5em;
+    width: 1.4em;
+    border-radius: 10%;
+    background-color: rgb(24, 22, 22);
+    margin-top: 80%;
+    margin-left: 35%;
+    position: absolute;
 
 }
 .horizontal {
-height: 0.5em;
-width: 1.4em;
-background-color: black;
-transform: rotate(90deg);
-margin-top: 80%;
-margin-left: 35%;
-position: absolute;
-}
-.rightstick{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 25%;
-margin-left: 30%;
-height: 4em;
-width: 4em;
-border-radius: 100%;
-background-color: #414b4d;
-border-color: rgb(27, 25, 25);
-border-style: solid;
-border-width: 0.6em;
-box-shadow: 0.2em 0.2em 0.6em black;
+    height: 0.5em;
+    width: 1.4em;
+    border-radius: 10%;
+    background-color: rgb(24, 22, 22);
+    transform: rotate(90deg);
+    margin-top: 80%;
+    margin-left: 35%;
+    position: absolute;
 }
 
-.homebutton {
-margin-top:20%;
-margin-left: 20%;
-height: 2em;
-width: 2em;
-border-radius: 100%;
-background-color: #2d2f30;
-border-color: rgb(86, 76, 76);
-border-style: solid;
-border-width: 0.3em;
-box-shadow: 0em 0.2em 0.4em rgba(2, 2, 2, 0.6);
-}
 .Xbutton{
-margin-top:20%;
-margin-left: 33%;  
+    margin-top:20%;
+    margin-left: 33%;  
 }
+
 .Ybutton{
-margin-top:20%;
-margin-left: 33%;  
+    margin-top:20%;
+    margin-left: 33%;  
 }
 .Abutton{
-margin-top:20%;
-margin-left: 33%;  
-}
-.Bbutton{
-margin-top:25%;
-margin-left:36%;  
+    margin-top:20%;
+    margin-left: 33%;  
 }
 
+.Bbutton{
+    margin-top:25%;
+    margin-left:36%;  
+}
+
+.rightstick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    margin-left: 30%;
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    background-color: #414b4d;
+    border-color: rgb(27, 25, 25);
+    border-style: solid;
+    border-width: 0.6em;
+    box-shadow: 0.2em 0.2em 0.6em black;
+}
+    
+.homebutton {
+    margin-top:20%;
+    margin-left: 20%;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 100%;
+    background-color: #2d2f30;
+    border-color: rgb(86, 76, 76);
+    border-style: solid;
+    border-width: 0.3em;
+    box-shadow: 0em 0.2em 0.4em rgba(2, 2, 2, 0.6);
+    position: relative;
+    }
+
+.roof {
+    height: 0;
+    width: 0;
+    border-left: 0.6em solid transparent;
+    border-right: 0.6em solid transparent;
+    border-bottom: 0.5em solid black;
+    border-radius: 30%;
+    margin-top: 17%;
+    margin-left: 13%;
+    position: absolute;
+}
+
+.wall{
+    height: 0.5em;
+    width: 0.7em;
+    border-radius: 8%;
+    background-color: black;
+    margin-top: 41%;
+    margin-left: 29%;
+    position: absolute;
+}
