@@ -1,9 +1,8 @@
-## Nintendo Switch White
+# Nintendo Switch White
 
 ###Tecnologías utilizadas: 
 
-1. ######  HTML 5
-2. ###### CSS 3
+   ![alt text](img/logos%20tecnolog%C3%ADas.jpg)
 
 ###Proceso:
 He realizado un container como elemento principal, el cual he dividido en 3 partes, 2 controles a cada lado y una pantalla principal en el medio. He utilizando divs y clases. 
